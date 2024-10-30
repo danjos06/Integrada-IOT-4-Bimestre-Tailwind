@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/output.css" />
+
+    <title>Início / Portifólio - Daniel</title>
+    <link rel="icon" type="image/jpg" href="assets/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="bg-cover bg-repeat bg-fixed" style="font-family: 'Inter', sans-serif; background-image: url('assets/fundo_branco.jpg');">
+    
+    <!-- NavBar importada -->
+    <div id="navbar"></div>
+
+    <section class="bem-vindo flex align-middle justify-center w-full h-full">
+        <div class="bg-neutral-200/80 backdrop-blur-sm text-black mt-[7rem] my-36 w-[370px] md:w-[700px] rounded-xl p-6 shadow-xl flex text-center md:text-left items-center duration-300">
+            <div class="md:pr-5">
+                <i class="fa-solid fa-graduation-cap text-yellow-500 text-6xl mb-3"></i>
+                <h2 class="text-2xl font-bold">Bem-vindo(a) ao meu portifólio!</h2>
+                <p class="text-lg mt-4">Apresento neste portifólio uma seleção dos melhores projetos que realizei em 2024 em cada área do conhecimento como estudante de Internet das Coisas (IOT) no Centro Universitário Senac Nações Unidas.</p>
+                <a href="sobre.html" class="info-card mt-5 bg-neutral-800 rounded-lg shadow-md flex md:hidden justify-center items-center">
+                    <img src="assets/pfp daniel.jpg" alt="" class="w-28 rounded-l-md">
+                    <div class="text-white block justify-center items-center">
+                        <p class="font-semibold text-xl text-yellow-400">Daniel Nogueira</p>
+                        <p>Estudante no 3° Ano do Ensino Médio Técnico de Internet das Coisas (IOT)</p>
+                        <p class="text-[12px] font-bold mt-2 text-yellow-100">Toque para saber mais</p>
+                    </div>
+                </a>
+            </div>
+            <a href="sobre.html" class="hidden md:block">
+                <div class="foto-card">
+                    <div class="card-interno">
+                        <div class="card-frente">
+                            <img src="assets/pfp daniel.jpg" alt="Cartão Avatar" style="width: 250px; height: 333px;" class="foto-perfil">
+                        </div>
+                        <div class="card-verso" style="background-image: url('assets/pfp daniel escurecido.jpg');">
+                            <i class="fa-solid fa-circle-user" style="color: #ffcf4b; font-size: 50px"></i>
+                            <h1 class="font-semibold">Daniel Nogueira</h1>
+                            <p>Estudante no 3° Ano do Ensino Médio Técnico de Internet das Coisas (IOT)</p>
+                            <h3 class="font-bold">Clique para saber mais</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="cards" class="cards bg-neutral-200/80 backdrop-blur-sm bg-cover bg-repeat bg-fixed md:flex p-5 md:p-28 shadow-[rgba(125,125,125,0.5)_10px_-3px_10px_0px] md:justify-center md:flex-wrap">
+        <div class="áreas bg-white/75 rounded-lg shadow-xl my-5 md:mx-7 md:min-w-[430px] md:max-w-[430px]">
+            <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/books-bg.jpeg');">
+                <h1 class="text-2xl bg-gradient-to-t from-black to-transparent pt-8 pb-2"><i class="fa-solid fa-book text-4xl pb-2"></i><p>Áreas do Conhecimento</p></h1>
+            </div>
+            <div class="p-3 text-center">
+                <p class="inline">As áreas do conhecimento são como grandes famílias de disciplinas que estudam diferentes aspectos do mundo. Cada família possui suas características e métodos próprios para investigar e compreender a realidade. As áreas do conhecimento são divididas entre:
+                    <ul class="text-yellow-600 font-semibold">
+                        <li>Área Técnica</li>
+                        <li>Matemática e Suas Tecnologias</li>
+                        <li>Ciências Naturais e Suas Tecnologias</li>
+                        <li>Ciências Humanas e Sociais</li>
+                        <li>Linguagens e Suas Tecnologias</li>
+                    </ul>
+                </p>
+                <div class="m-5 hover:scale-110 duration-200">
+                    <a class="bg-yellow-400 p-2 rounded-lg shadow-lg text-xs sm:text-sm md:text-base" href="areas.html">Mais sobre as Áreas do Conhecimento<i class="fa-solid fa-arrow-up-right-from-square pl-2"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="técnico bg-white/75 rounded-lg shadow-xl my-5 md:mx-7 md:min-w-[430px] md:max-w-[430px]">
+            <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/iot-bg.jpg');">
+                <h1 class="text-2xl bg-gradient-to-t from-black to-transparent pt-8 pb-2"><i class="fa-solid fa-microchip text-4xl pb-2"></i><p>Área Técnica (Internet das Coisas)</p></h1>
+            </div>
+            <div class="p-3 text-center">
+                <p class="inline">No Senac, meu curso técnico escolhido foi o de Internet das Coisas (IOT). A Internet das Coisas (IoT) é um conceito que conecta objetos do dia a dia à internet, tornando-os "inteligentes". Imagine geladeiras que fazem compras sozinhas, carros que se dirigem sozinhos ou casas que se ajustam à sua rotina. O curso de IOT tinha com alguns temas:
+                    <ul class="text-yellow-600 font-semibold">
+                        <li>Montagem e reparo de computadores</li>
+                        <li>Criação e gerenciamento de redes</li>
+                        <li>Projetos com Arduino</li>
+                        <li>Programação em diversas linguagens</li>
+                    </ul>
+                </p>
+                <div class="m-5 hover:scale-110 duration-200">
+                    <a class="bg-yellow-400 p-2 rounded-lg shadow-lg text-xs sm:text-sm md:text-base" href="areas.html">Mais sobre a Área Técnica<i class="fa-solid fa-arrow-up-right-from-square pl-2"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="extracurriculares bg-white/75 rounded-lg shadow-xl my-5 md:mx-7 md:min-w-[430px] md:max-w-[430px]">
+            <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/extracurriculares.jpg');">
+                <h1 class="text-2xl bg-gradient-to-t from-black to-transparent pt-8 pb-2"><i class="fa-solid fa-medal text-4xl pb-2"></i><p>Atividades Extracurriculares</p></h1>
+            </div>
+            <div class="p-3 md:pt-12 text-center">
+                <p class="inline">Durante minha trajetória no ensino médio técnico, realizei algumas atividades extracurriculares que ajudaram a ampliar meu conhecimento nos mais diversos aspéctos, como:
+                    <ul class="text-yellow-600 font-semibold">
+                        <li>Senac Empreenda</li>
+                        <li>Torneio de Robótica</li>
+                        <li>Olimpíada Brasileira de Tecnologia</li>
+                    </ul>
+                </p>
+                <div class="m-5 hover:scale-110 duration-200">
+                    <a class="bg-yellow-400 p-2 rounded-lg shadow-lg text-xs sm:text-sm md:text-base" href="extracurriculares.html">Mais sobre Atividades Extracurriculares<i class="fa-solid fa-arrow-up-right-from-square pl-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="senac" class="senac h-auto bg-white shadow-[rgba(234,179,8,0.5)_10px_-3px_10px_0px] relative pb-5">
+        <div class="bg-cover bg-center" style="background-image: url('assets/senac-capa.jpeg');">
+            <h2 class="text-3xl font-bold text-center text-white md:text-left md:text-4xl pt-20 pb-4 bg-gradient-to-t from-black to-transparent md:px-60 md:pt-32 md:pb-8 px-3">Sobre o Centro Universitário Senac</h2>
+        </div>
+        <div class="px-5 py-5 md:px-60 md:flex md:justify-center items-center text-center md:text-left">
+            <div>
+                <p class="text-xl text-center md:text-left mb-3 font-semibold">Este é o local onde realizei meu Ensino  Médio Técnico de Internet das Coisas (IOT).</p>
+                <p class="">A unidade de Santo Amaro do Senac conta com mais de 100 salas e suporta diversos cursos como o meu, além de oferecer uma infraestrutura de ensino de alta qualidade.</p>
+                <div class="mt-5 mb-7 hover:scale-110 duration-200 md:w-fit">
+                    <a class="bg-yellow-400 p-2 rounded-lg shadow-lg" target="_blank" href="https://www.sp.senac.br/centro-universitario-senac-santo-amaro">Saiba mais sobre o Senac<i class="fa-solid fa-arrow-up-right-from-square pl-2"></i></a>
+                </div>
+            </div>
+
+            <iframe class="w-full h-64 rounded-xl my-3 shadow-lg md:ml-7" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.171524801555!2d-46.701736323628865!3d-23.66982326558786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce515bb231b5ed%3A0x327b78892baef8e6!2zU2VuYWMgTmHDp8O1ZXMgVW5pZGFz!5e0!3m2!1sen!2sbr!4v1729283976464!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer importado -->
+    <div id="footer"></div>
+
+    <script src="components/imports.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
