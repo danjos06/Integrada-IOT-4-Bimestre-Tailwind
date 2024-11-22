@@ -31,3 +31,23 @@ function updateCarousel() {
     const offset = -currentIndex * 100;
     carouselImages.style.transform = `translateX(${offset}%)`;
 }
+
+function bone_mais() {
+    document.getElementById('bone-content').style.display='block';
+    document.getElementById('bone-mais').style.display='none';
+}
+
+function bone_menos() {
+    document.getElementById('bone-content').style.display='none';
+    document.getElementById('bone-mais').style.display='block';
+}
+
+function carrinho_mais() {
+    document.getElementById('carrinho-content').style.display='block';
+    document.getElementById('carrinho-mais').style.display='none';
+}
+
+function carrinho_menos() {
+    document.getElementById('carrinho-content').style.display='none';
+    document.getElementById('carrinho-mais').style.display='block';
+}
