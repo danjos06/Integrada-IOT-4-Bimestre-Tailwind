@@ -51,3 +51,13 @@ function carrinho_menos() {
     document.getElementById('carrinho-content').style.display='none';
     document.getElementById('carrinho-mais').style.display='block';
 }
+
+function braco_mais() {
+    document.getElementById('braco-content').style.display='block';
+    document.getElementById('braco-mais').style.display='none';
+}
+
+function braco_menos() {
+    document.getElementById('braco-content').style.display='none';
+    document.getElementById('braco-mais').style.display='block';
+}

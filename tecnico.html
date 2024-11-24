@@ -25,12 +25,12 @@
                 <h1>Curso Técnico - Internet das Coisas</h1>
             </div>
         </div>
-        <div class="p-3 text-center lg:px-60">
+        <div class="p-3 text-center xl:px-60">
             <p class="inline">No Senac, meu curso técnico escolhido foi o de Internet das Coisas (IOT). A Internet das Coisas (IoT) é um conceito que conecta objetos do dia a dia à internet, tornando-os "inteligentes". Imagine geladeiras que fazem compras sozinhas, carros que se dirigem sozinhos ou casas que se ajustam à sua rotina.</p>
         </div>
         <h2 class="md:ml-3 text-xl font-bold text-center mb-3 md:mb-0">O curso de Internet das Coisas abrange alguns temas:
         </h2>
-        <div class="m-5 lg:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
+        <div class="m-5 xl:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
             <div class="m-5 text-center md:text-left pt-5 md:pt-0">
                 <i class="fa-solid fa-screwdriver-wrench text-5xl mb-3 text-yellow-500"></i>
                 <h1 class="text-2xl font-bold mb-3">Montagem e reparo de computadores</h1>
@@ -38,7 +38,7 @@
             </div>
             <img class="w-full md:w-[400px] h-[200px] md:h-[300px] object-cover object-center rounded-b-lg md:rounded-r-lg md:rounded-bl-none" src="assets/reparo-img.jpg" alt="">
         </div>
-        <div class="m-5 lg:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
+        <div class="m-5 xl:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
             <div class="m-5 text-center md:text-left pt-5 md:pt-0">
                 <i class="fa-solid fa-network-wired text-5xl mb-3 text-yellow-500"></i>
                 <h1 class="text-2xl font-bold mb-3">Criação e gerenciamento de redes</h1>
@@ -46,7 +46,7 @@
             </div>
             <img class="w-full md:w-[400px] h-[200px] md:h-[300px] object-cover object-center rounded-b-lg md:rounded-r-lg md:rounded-bl-none" src="assets/server-img.webp" alt="">
         </div>
-        <div class="m-5 lg:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
+        <div class="m-5 xl:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
             <div class="m-5 text-center md:text-left pt-5 md:pt-0">
                 <i class="fa-solid fa-code text-5xl mb-3 text-yellow-500"></i>
                 <h1 class="text-2xl font-bold mb-3">Programação e projetos com Arduino</h1>
@@ -58,8 +58,8 @@
         <h2 class="text-2xl font-bold text-center pb-3 md:mb-0 bg-gradient-to-t from-yellow-400/40 to-transparent pt-12">Projetos:
         </h2>
 
-        <div class="bg-yellow-400/40 lg:px-60 md:flex items-center justify-center px-5 flex flex-col">
-            <div class="bone bg-white/75 rounded-lg shadow-xl mb-5 md:mx-7 md:min-w-[430px] md:max-w-[2000px]">
+        <div class="bg-yellow-400/40 xl:px-60 md:flex items-center justify-center px-5 flex flex-col">
+            <div class="bg-white/75 rounded-lg shadow-xl mb-5 md:mx-7 md:min-w-[430px] md:max-w-[2000px]">
                 <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/bone-bg.png');">
                     <h1 class="text-3xl bg-gradient-to-t from-black to-transparent pt-16 md:pt-28 pb-2">Boné com sensores</h1>
                 </div>
@@ -84,13 +84,13 @@
                 </div>
             </div>
 
-            <div class="bone bg-white/75 rounded-lg shadow-xl mb-5 md:mx-7 md:min-w-[430px] md:max-w-[2000px]">
+            <div class="bg-white/75 rounded-lg shadow-xl mb-5 md:mx-7 md:min-w-[430px] md:max-w-[2000px]">
                 <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/carrinho1.jpg');">
                     <h1 class="text-3xl bg-gradient-to-t from-black to-transparent pt-16 md:pt-28 pb-2">Carrinho segue linha</h1>
                 </div>
                 <div id="" class="text-center">
                     <div class="p-3 text-center">
-                        <p class="inline">Nesse projeto tivemos que criar um boné com sensores, o boné contava com sensor ultrassônico e sensor de luminosidade, quando o sensor ultrassônico detecta um objeto se aproximando o buzzer começa a apitar e dependendo da distância os LEDs verde, amarelo e vermelho acendem, e quando o sensor de luminosidade detecta que está escuro um LED acende.</p>
+                        <p class="inline">Nesse projeto construímos um carrinho segue linha, possuía dois sensores infravermelho que eram capaz de identificar a linha na superfície que era feita com fita isolante no chão da sala, dois motores com caixa de redução, módulo "Ponte H" para controlar os motores e um Arduino para controlar o módulo "Ponte H" e os sensores.</p>
                     </div>
                     <div id="carrinho-content" style="display: none;">
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-3">
@@ -105,6 +105,31 @@
                     </div>
                     <div id="carrinho-mais" class="text-center">
                         <button class="bg-yellow-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="carrinho_mais()">Ver mais<i class="fa-solid fa-angle-down ml-2"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white/75 rounded-lg shadow-xl mb-5 md:mx-7 md:min-w-[430px] md:max-w-[2000px]">
+                <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/braco1.jpg');">
+                    <h1 class="text-3xl bg-gradient-to-t from-black to-transparent pt-16 md:pt-28 pb-2">Braço mecânico de MDF</h1>
+                </div>
+                <div id="" class="text-center">
+                    <div class="p-3 text-center">
+                        <p class="inline">Nesse projeto foi construído um Braço mecânico de MDF, foi utilizado 4 servo motores, um para cada parte móvel do braço (altura, profundidade, direção e abertura da garra), para o controle dos motores, foi utilizado um shield no arduino que permitiu conectar os motores de maneira mais simples e rápida, além de permitir direcionar 5 volts (o ideal para os motores) diretamente a eles. Para o controle foi utilizado dois joysticks, um para direção e abertura da garra, outro para altura e profundidade.</p>
+                    </div>
+                    <div id="braco-content" style="display: none;">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-3">
+                            <img src="assets/braco1.jpg" class="w-full h-auto rounded-md" alt="Imagem 1">
+                            <img src="assets/braco2.jpg" class="w-full h-auto rounded-md" alt="Imagem 2">
+                            <img src="assets/braco3.jpg" class="w-full h-auto rounded-md" alt="Imagem 3">
+                        </div>
+                        <div class="flex justify-center pb-3">
+                            <a href="assets/segue-linha.pdf" target="_blank"><p class="bg-yellow-400 text-center w-fit p-2 rounded-md hover:scale-110 duration-200">PDF do relatório do projeto<i class="fa-solid fa-arrow-up-right-from-square pl-2"></i></p></a>
+                        </div>
+                        <button class="bg-red-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="braco_menos()">Ver menos<i class="fa-solid fa-angle-up ml-2"></i></button>
+                    </div>
+                    <div id="braco-mais" class="text-center">
+                        <button class="bg-yellow-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="braco_mais()">Ver mais<i class="fa-solid fa-angle-down ml-2"></i></button>
                     </div>
                 </div>
             </div>
