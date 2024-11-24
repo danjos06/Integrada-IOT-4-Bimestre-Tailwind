@@ -14,9 +14,84 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
+<body class="bg-cover bg-repeat bg-fixed" style="font-family: 'Inter', sans-serif; background-image: url('assets/fundo_branco.jpg');">
     <!-- NavBar importada -->
     <div id="navbar"></div>
+
+    <section class="bg-gradient-to-b from-yellow-200 to-yellow-50/80 backdrop-blur-sm shadow xl:px-60 pt-44 text-3xl text-center font-bold pb-5">
+        <i class="fa-solid fa-circle-user text-5xl pb-2"></i>
+        <h1>Sobre Mim</h1>
+    </section>
+
+    <section class="flex justify-center my-10">
+        <div class="bg-neutral-200/80 backdrop-blur-sm w-[370px] md:w-[800px] justify-between items-center rounded-lg shadow-2xl p-5">
+            <div class="md:flex">
+                <div class="flex justify-center md:hidden">
+                    <img class="rounded-full max-w-[170px] h-auto shadow-2xl mb-3" src="assets/daniel-icon.jpg" alt="daniel-icon">
+                </div>
+                <div class="md:pr-3">
+                    <p class="md:text-xl text-center md:text-left">Me chamo Daniel dos Anjos Nogueira, tenho 18 anos e estou finalizando o ensino médio. Em breve, iniciarei a faculdade de Ciência da Computação. Sou apaixonado por programação, resolução de problemas e novas ideias.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-3">
+                        <div class="bg-white/40 backdrop-blur-sm rounded-lg shadow-2xl p-2">
+                            <p class="text-lg font-bold">Soft Skills</p>
+                            <ul>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Proatividade</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Comunicação</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Solução de Problemas</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Trabalho em equipe</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Liderança</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white/40 backdrop-blur-sm rounded-lg shadow-2xl p-2">
+                            <p class="text-lg font-bold">Hard Skills</p>
+                            <ul>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Inglês Avançado</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Certificado em IoT</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Técnico em hardware</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Infraestrutura de rede</li>
+                                <li class=""><i class="fa-regular fa-circle-check pr-1"></i>Programação</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:flex justify-center">
+                    <img class="rounded-lg shadow-2xl max-w-[200px] md:max-h-full h-auto mt-3 md:mt-0" src="assets/daniel-ft.jpg" alt="daniel-ft">
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-5 py-3">
+                <a class="text-center bg-yellow-400 p-2 rounded-md hover:scale-110 duration-200 shadow" href="https://github.com/danjos06/Integrada-IOT-4-Bimestre-Tailwind" target="_blank"><i class="fa-brands fa-github pr-1"></i>GitHub do Site</a>
+                <a class="text-center bg-yellow-400 p-2 rounded-md hover:scale-110 duration-200 shadow" href="https://www.linkedin.com/in/daniel-nogueira-243a21220/" target="_blank"><i class="fa-brands fa-linkedin pr-1"></i>Meu LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white/80 backdrop-blur-sm xl:px-60 pb-6">
+        <p class="text-center text-2xl font-bold py-3">Tecnologias utilizadas para construção do site</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-3">
+            <div class="bg-white/40 backdrop-blur-sm rounded-lg shadow-2xl p-4 text-center">
+                <i class="fa-brands fa-html5 text-6xl text-[#e34c25]"></i>
+                <p class="font-bold text-lg">HTML5</p>
+                <p>HTML5 é a quinta versão do HTML (HyperText Markup Language), a linguagem padrão para a criação de páginas web. Ele introduziu novos elementos e atributos que facilitam a criação de websites complexos e interativos. Alguns dos novos recursos incluem suporte para multimídia como vídeos e áudios nativamente (sem a necessidade de plugins externos), elementos semânticos como &lt;article&gt;, &lt;section&gt; e &lt;nav&gt;, além de aprimoramentos para gráficos e interatividade com o &lt;canvas&gt; e SVG.</p>
+            </div>
+            <div class="bg-white/40 backdrop-blur-sm rounded-lg shadow-2xl p-4 text-center">
+                <i class="fa-brands fa-css3-alt text-6xl text-[#1674ba]"></i>
+                <p class="font-bold text-lg">CSS3</p>
+                <p>CSS3 (Cascading Style Sheets) é a versão mais recente do CSS, que é usado para descrever a apresentação de um documento escrito em HTML ou XML. CSS3 introduziu várias novas funcionalidades como gradientes, sombras, transições e animações, que permitem designs mais atrativos e dinâmicos. Além disso, trouxe melhorias para layout com novos módulos como Flexbox e Grid Layout, facilitando a construção de layouts responsivos e complexos.</p>
+            </div>
+            <div class="bg-white/40 backdrop-blur-sm rounded-lg shadow-2xl p-4 text-center">
+                <i class="fa-brands fa-js text-6xl text-[#f6df17]"></i>
+                <p class="font-bold text-lg">JavaScript</p>
+                <p>JavaScript é uma linguagem de programação usada principalmente para adicionar interatividade e comportamento dinâmico às páginas web. Com JavaScript, é possível criar desde simples efeitos de animação até aplicações web complexas. A linguagem é executada no navegador do usuário, o que permite a manipulação do DOM (Document Object Model), validação de formulários, comunicação assíncrona com servidores através de AJAX, entre outros recursos.</p>
+            </div>
+            <div class="bg-white/40 backdrop-blur-sm rounded-lg shadow-2xl p-4 text-center">
+                <div class="flex justify-center">
+                    <img class="max-h-[60px] w-auto" src="assets/Tailwind_CSS_Logo.png" alt="">
+                </div>
+                <p class="font-bold text-lg">Tailwind CSS</p>
+                <p>Tailwind CSS é um framework CSS utilitário que permite construir rapidamente interfaces de usuário modernas e responsivas. Diferente de outros frameworks que fornecem componentes prontos, o Tailwind oferece classes utilitárias que você combina para criar o design desejado. Isso permite um maior controle sobre o estilo final do projeto sem a necessidade de escrever CSS customizado. Tailwind é altamente configurável e facilita a manutenção do código CSS, promovendo a reutilização de estilos e a consistência visual.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer importado -->
     <div id="footer"></div>
