@@ -61,3 +61,13 @@ function braco_menos() {
     document.getElementById('braco-content').style.display='none';
     document.getElementById('braco-mais').style.display='block';
 }
+
+function casa_mais() {
+    document.getElementById('casa-content').style.display='block';
+    document.getElementById('casa-mais').style.display='none';
+}
+
+function casa_menos() {
+    document.getElementById('casa-content').style.display='none';
+    document.getElementById('casa-mais').style.display='block';
+}

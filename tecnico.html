@@ -28,6 +28,11 @@
         <div class="p-3 text-center xl:px-60">
             <p class="inline">No Senac, meu curso técnico escolhido foi o de Internet das Coisas (IOT). A Internet das Coisas (IoT) é um conceito que conecta objetos do dia a dia à internet, tornando-os "inteligentes". Imagine geladeiras que fazem compras sozinhas, carros que se dirigem sozinhos ou casas que se ajustam à sua rotina.</p>
         </div>
+        <h2 class="md:ml-3 text-xl font-bold text-center mb-3 md:mb-0">Vídeo de apresentação do curso:
+        </h2>
+        <div class="flex justify-center pb-3">
+            <iframe class="rounded-lg shadow-2xl" width="450" height="253" src="https://www.youtube.com/embed/lxS8kVzUBts?si=HbBMF6khUBFbdRqf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         <h2 class="md:ml-3 text-xl font-bold text-center mb-3 md:mb-0">O curso de Internet das Coisas abrange alguns temas:
         </h2>
         <div class="m-5 xl:mx-60 md:flex items-center justify-between bg-white/75 rounded-lg shadow-xl">
@@ -123,13 +128,30 @@
                             <img src="assets/bracoft2.jpg" class="w-full h-auto rounded-md" alt="Imagem 2">
                             <img src="assets/bracoft3.jpg" class="w-full h-auto rounded-md" alt="Imagem 3">
                         </div>
-                        <div class="flex justify-center pb-3">
-                            <a href="assets/segue-linha.pdf" target="_blank"><p class="bg-yellow-400 text-center w-fit p-2 rounded-md hover:scale-110 duration-200">PDF do relatório do projeto<i class="fa-solid fa-arrow-up-right-from-square pl-2"></i></p></a>
-                        </div>
                         <button class="bg-red-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="braco_menos()">Ver menos<i class="fa-solid fa-angle-up ml-2"></i></button>
                     </div>
                     <div id="braco-mais" class="text-center">
                         <button class="bg-yellow-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="braco_mais()">Ver mais<i class="fa-solid fa-angle-down ml-2"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white/75 rounded-lg shadow-xl mb-10 md:mx-7 md:min-w-[430px] md:max-w-[2000px]">
+                <div class="text-center text-white font-bold rounded-t-lg bg-cover bg-center" style="background-image: url('assets/casa-ft1.png');">
+                    <h1 class="text-3xl bg-gradient-to-t from-black to-transparent pt-16 md:pt-28 pb-2">Casa com arduino</h1>
+                </div>
+                <div id="" class="text-center">
+                    <div class="p-3 text-center">
+                        <p class="inline">Nesse projeto utilizamos uma maquete de uma casa construída com MDF e aplicamos algumas automações com arduino, com LEDs, sensor de presença, leitor de cartão RFID e até um sistema que permite um controle da iluminação da casa com o uso de um aplicativo no celular.</p>
+                    </div>
+                    <div id="casa-content" style="display: none;">
+                        <div class="grid grid-cols-1 md:grid-cols-1 gap-5 p-3">
+                            <video class="rounded-lg" src="assets/casa-vid.mp4" controls="controls"></video>
+                        </div>
+                        <button class="bg-red-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="casa_menos()">Ver menos<i class="fa-solid fa-angle-up ml-2"></i></button>
+                    </div>
+                    <div id="casa-mais" class="text-center">
+                        <button class="bg-yellow-400 cursor-pointer p-2 mb-3 rounded-lg hover:scale-110 duration-200" onclick="casa_mais()">Ver mais<i class="fa-solid fa-angle-down ml-2"></i></button>
                     </div>
                 </div>
             </div>
