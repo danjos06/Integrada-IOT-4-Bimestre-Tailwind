@@ -799,6 +799,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -851,10 +855,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -868,10 +868,6 @@ video {
   display: block;
   -webkit-box-orient: horizontal;
   -webkit-line-clamp: none;
-}
-
-.\!block {
-  display: block !important;
 }
 
 .block {
